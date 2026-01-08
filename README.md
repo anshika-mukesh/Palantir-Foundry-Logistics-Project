@@ -5,7 +5,7 @@ An end-to-end data engineering project that transforms raw supermarket sales dat
 ## 🏗️ Architecture
 - **Bronze**: Raw data ingestion from supermarket sales CSVs.
 - **Silver**: Data cleaning and transformation using **PySpark**.
-- **Gold**: Promoting cleaned data to the **Foundry Ontology** for operational use.
+- **Gold**: Configured Object Action Types with Organization-level permissions to enable collaborative data management.
 
 ## 🛠️ Key Transformations
 - **Column Standardization**: Renamed "Invoice ID" and "Product line" for consistency.
