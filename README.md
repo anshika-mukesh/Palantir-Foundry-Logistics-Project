@@ -1,2 +1,17 @@
-# Palantir-Foundry-Logistics-Project
-This Palantir Foundry project automates a logistics pipeline using the Medallion Architecture. It uses PySpark to clean raw sales data and calculate real-time stock levels. By promoting this data to the Foundry Ontology, it creates a "Digital Twin" for reliable operational use and decision-making.
+# Palantir Foundry: Logistics & Inventory Pipeline
+
+An end-to-end data engineering project that transforms raw supermarket sales data into a "Digital Twin" of inventory.
+
+## 🏗️ Architecture
+- **Bronze**: Raw data ingestion from supermarket sales CSVs.
+- **Silver**: Data cleaning and transformation using **PySpark**.
+- **Gold**: Promoting cleaned data to the **Foundry Ontology** for operational use.
+
+## 🛠️ Key Transformations
+- **Column Standardization**: Renamed "Invoice ID" and "Product line" for consistency.
+- **Inventory Logic**: Calculated real-time `stock_level` using a baseline of 100 units minus quantity sold.
+
+## 🚀 Technical Stack
+- **Platform**: Palantir Foundry.
+- **Language**: PySpark (Python).
+- **DevOps**: Managed via Foundry Code Repositories with integrated version control.
